@@ -40,12 +40,12 @@ def test():
     3. Ruby
     4. Java""")
 
-    wrong = False
+    wrong = True
     while wrong:
         answer = int(input())
         if answer == 2:
             print('Completed, have a nice day!')
-            wrong = True
+            wrong = False
         else:
             print("Please, try again.")
 
